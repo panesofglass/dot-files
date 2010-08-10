@@ -187,7 +187,7 @@ set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
 
 "display tabs and trailing spaces
 set list
-set listchars=tab:\ \ ,extends:>,precedes:<
+set listchars=tab:¿\ ,eol:¬,extends:>,precedes:<
 
 set formatoptions-=o "dont continue comments when pushing o/O
 
@@ -241,6 +241,7 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 let mapleader = ","             "remap leader to ',' which is much easier than '\'
 nmap <silent> <Leader>p :NERDTreeToggle<CR>
+nmap <Leader>l :set list!<CR>
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
@@ -400,3 +401,4 @@ vmap ) s)
 vmap ] s]
 vmap ' s'
 vmap } s}
+:set number
