@@ -240,7 +240,7 @@ set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 let mapleader = ","             "remap leader to ',' which is much easier than '\'
-"nmap <silent> <Leader>p :NERDTreeToggle<CR>
+nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nmap <Leader>l :set list!<CR>
 
 "make <c-l> clear the highlight as well as redraw
@@ -328,6 +328,7 @@ au BufNewFile,BufRead *.xaml  setf xml
 au BufNewFile,BufRead *.ps1xml setf xml
 au BufNewFile,BufRead *.vbproj setf xml
 au BufNewFile,BufRead *.csproj setf xml
+au BufNewFile,BufRead *.fsproj setf xml
 au BufNewFile,BufRead *.wxs setf xml
 au BufNewFile,BufRead *.io  setf io
 au BufNewFile,BufRead *.notes setf notes

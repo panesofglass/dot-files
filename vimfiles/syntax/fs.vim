@@ -8,7 +8,7 @@
 " For version 6.x: Quit when a syntax file was already loaded
 if version < 600
   syntax clear
-elseif exists("b:current_syntax") && b:current_syntax == "fs"
+elseif exists("b:current_syntax")
   finish
 endif
 
