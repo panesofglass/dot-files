@@ -22,3 +22,6 @@
 [submodule "vimfiles/bundle/markdown"]
 	path = vimfiles/bundle/markdown
 	url = git://github.com/tpope/vim-markdown.git
+[submodule "vimfiles/bundle/git"]
+	path = vimfiles/bundle/git
+	url = git://github.com/tpope/vim-git.git
