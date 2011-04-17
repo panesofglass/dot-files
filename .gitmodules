@@ -28,3 +28,6 @@
 [submodule "vimfiles/bundle/nerdtree"]
 	path = vimfiles/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vimfiles/bundle/vividchalk"]
+	path = vimfiles/bundle/vividchalk
+	url = git://github.com/tpope/vim-vividchalk.git
