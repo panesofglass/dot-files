@@ -25,3 +25,6 @@
 [submodule "vimfiles/bundle/git"]
 	path = vimfiles/bundle/git
 	url = git://github.com/tpope/vim-git.git
+[submodule "vimfiles/bundle/nerdtree"]
+	path = vimfiles/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
