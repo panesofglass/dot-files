@@ -37,3 +37,6 @@
 [submodule "vimfiles/bundle/ragtag"]
 	path = vimfiles/bundle/ragtag
 	url = git://github.com/tpope/vim-ragtag.git
+[submodule "vimfiles/bundle/speeddating"]
+	path = vimfiles/bundle/speeddating
+	url = git://github.com/tpope/vim-speeddating.git
