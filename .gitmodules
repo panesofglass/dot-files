@@ -7,3 +7,6 @@
 [submodule "vimfiles/bundle/abolish"]
 	path = vimfiles/bundle/abolish
 	url = git://github.com/tpope/vim-abolish.git
+[submodule "vimfiles/bundle/rails"]
+	path = vimfiles/bundle/rails
+	url = git://github.com/tpope/vim-rails.git
