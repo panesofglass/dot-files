@@ -31,3 +31,9 @@
 [submodule "vimfiles/bundle/vividchalk"]
 	path = vimfiles/bundle/vividchalk
 	url = git://github.com/tpope/vim-vividchalk.git
+[submodule "vimfiles/bundle/afterimage"]
+	path = vimfiles/bundle/afterimage
+	url = git://github.com/tpope/vim-afterimage.git
+[submodule "vimfiles/bundle/ragtag"]
+	path = vimfiles/bundle/ragtag
+	url = git://github.com/tpope/vim-ragtag.git
