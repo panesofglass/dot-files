@@ -40,3 +40,6 @@
 [submodule "vimfiles/bundle/speeddating"]
 	path = vimfiles/bundle/speeddating
 	url = git://github.com/tpope/vim-speeddating.git
+[submodule "vimfiles/bundle/fsharp"]
+	path = vimfiles/bundle/fsharp
+	url = git://github.com/kongo2002/fsharp-vim.git
