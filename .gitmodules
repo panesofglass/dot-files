@@ -43,3 +43,6 @@
 [submodule "vimfiles/bundle/fsharp"]
 	path = vimfiles/bundle/fsharp
 	url = git://github.com/kongo2002/fsharp-vim.git
+[submodule "vimfiles/bundle/vim-coffee-script"]
+	path = vimfiles/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
