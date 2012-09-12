@@ -1,6 +1,5 @@
 "Use Vim settings, rather then Vi settings (much better!).
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
 
 "This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -336,6 +335,10 @@ au BufNewFile,BufRead *.wxs setf xml
 au BufNewFile,BufRead *.io  setf io
 au BufNewFile,BufRead *.notes setf notes
 au BufNewFile,BufRead *.il setlocal syntax=ilasm
+
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+au BufWritePost *.coffee silent CoffeeMake!
+
 au FileType ruby,eruby call UseRubyIndent()
 au FileType ruby,eruby let ruby_fold=1
 au FileType ruby,eruby set omnifunc=rubycomplete#Complete
